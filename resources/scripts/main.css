@@ -70,29 +70,29 @@ aside{
 }
 
 .homeSide{
-    background-image: url("/resources/images/bg1.png");
+    background-image: url("./resources/images/bg1.png");
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 
 }
 .aboutSide{
-    background-image: url("/resources/images/bg4.jpg");
+    background-image: url("./resources/images/bg4.jpg");
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 
    
  
 }
 .servicesSide{
-    background-image: url("/resources/images/bg5.jpg");
+    background-image: url("./resources/images/bg5.jpg");
     background-attachment: fixed;
 }
 .servicesSide2{
-    background-image: url("/resources/images/bg6.jpg");
+    background-image: url("./resources/images/bg6.jpg");
     background-attachment: fixed;
 
 
 }
 .contactSide{
-    background-image: url("/resources/images/bg2.png");
+    background-image: url("./resources/images/bg2.png");
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
     background-size: cover;
 }
