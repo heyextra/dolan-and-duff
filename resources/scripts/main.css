@@ -358,7 +358,7 @@ aside{
     display: none;
 }
     .serviceSide{
-        background-attachment: cover;
+        background-position: cover;
     }
 
 }
