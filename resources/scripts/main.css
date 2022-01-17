@@ -108,6 +108,8 @@ footer{
     align-items: center;
     justify-content: space-between;
     width: 85%;
+    position: relative;
+bottom: -100%;
     }
 
 
