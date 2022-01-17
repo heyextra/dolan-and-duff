@@ -359,6 +359,7 @@ aside{
 }
     .serviceSide{
         background-position: cover;
+        background-attachment: initial;
     }
 
 }
