@@ -357,6 +357,9 @@ aside{
 .circle{
     display: none;
 }
+    .serviceSide{
+        background-attachment: cover;
+    }
 
 }
 
