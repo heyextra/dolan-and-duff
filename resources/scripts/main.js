@@ -12,7 +12,7 @@ const buttonLeaveAnimation = () => {
   
 }
 const buttonEnterAnimation = () => {
- gsap.to("button", {transform: "translate(0px, -150px)", opacity: 1, delay:1.3, duration: 1})
+ gsap.to("button", {transform: "translate(0px, -300px)", opacity: 1, delay:1.3, duration: 1})
 }
 
 const pageAnimation = () => {
