@@ -243,9 +243,10 @@ padding: 2.5%;
     }
     .service > p {
         align-self: auto;
-grid-column: span 2;
-font-weight: 400;
-font-size: 16px;
+        grid-column: span 2;
+        font-weight: 400;
+        font-size: 16px;
+        text-align:left;
     }
 .contactGrid{
     display: grid; 
