@@ -82,10 +82,12 @@ aside{
  
 }
 .servicesSide{
+    display:none;
     background-image: url("/dolan-and-duff/resources/images/bg5.jpg");
     background-attachment: fixed;
 }
 .servicesSide2{
+    display:none;
     background-image: url("/dolan-and-duff/resources/images/bg6.jpg");
     background-attachment: fixed;
 
@@ -205,15 +207,15 @@ li{
 max-width: 80vw;
 padding: 2.5%;
     display: grid; 
-    grid-template-columns: 5% repeat(3, 1fr) 5%; 
-    grid-template-rows: auto repeat(2, 1fr) auto repeat(2, 1fr);
+/*     grid-template-columns: 5% repeat(3, 1fr) 5%; 
+    grid-template-rows: auto repeat(2, 1fr) auto repeat(2, 1fr); */
     grid-column-gap: 0px;
     grid-row-gap: 0px; 
     }
-    #core { grid-area: 1 / 2 / 2 / 5; } 
+/*     #core { grid-area: 1 / 2 / 2 / 5; } 
     .core { grid-area: 2 / 1 / 4 / 5; } 
     #sup { grid-area: 4 / 2 / 5 / 5; } 
-    .sup { grid-area: 5 / 2 / 7 / 6; } 
+    .sup { grid-area: 5 / 2 / 7 / 6; }  */
      
 
  
@@ -225,7 +227,7 @@ padding: 2.5%;
     } 
        
     .sup {  
-        text-align: right;
+/*         text-align: right; */
         display: grid;
         grid-template-columns: repeat( auto-fill, minMax(250px, 1fr) );
         gap: 40px;
@@ -358,6 +360,7 @@ aside{
     display: none;
 }
     .serviceSide{
+        
         background-position: cover;
         background-attachment: initial;
     }
