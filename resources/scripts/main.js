@@ -1,10 +1,10 @@
 
 
 const enterAnimation = (container) => {
-  return gsap.from(container, {autoAlpha: 0, clearProps:"all", duration: 1})
+  return gsap.from(container, {autoAlpha: 0, clearProps:"all", duration: .8, ease: "none"})
 }
 const leaveAnimation = (container) => {
-  return gsap.to(container, {autoAlpha: 0, clearProps:"all",  duration: 1, ease: "none" })
+  return gsap.to(container, {autoAlpha: 0, clearProps:"all",  duration: .8, ease: "none" })
 }
 const buttonLeaveAnimation = () => {
   var tl = gsap.timeline()
