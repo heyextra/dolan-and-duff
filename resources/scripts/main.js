@@ -34,7 +34,7 @@ const pageLeaveAnimation = () => {
 
     var tl = gsap.timeline({defaults:{duration: 1}})
     tl.from("#core", {opacity:0, y:"100px"} )
-    .from(".service", {opacity: 0, y:"-20px", stagger: 0.2, ease: "power2.in" },"-=.7")
+    .from(".service", {opacity: 0, y:"-20px", stagger: 0.1, ease: "power2.in" },"-=.7")
     }
 
 
