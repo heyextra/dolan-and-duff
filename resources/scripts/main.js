@@ -145,6 +145,9 @@ const pageLeaveAnimation = () => {
      afterEnter(){
        serviceAnimation()
      },
+        after(){
+          buttonEnterAnimation()
+        },
       from: {
         namespace: [
           'home',
