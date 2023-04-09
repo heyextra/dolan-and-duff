@@ -19,9 +19,9 @@ const pageAnimation = () => {
 
 var tl = gsap.timeline({defaults:{duration: 1}})
 tl.from("main", { y:"100px"} )
-.from("#heading", {opacity: 0, y:"-100px"},"-=.5")
-.from(".desc", {opacity:0},"-=.6")
-.from("aside", {clipPath: "polygon(50% 100%, 100% 50%, 50% 100%, 0% 50%)"},"-=1")
+.from("#heading", {opacity: 0, y:"-100px"},"-=.7")
+.from(".desc", {opacity:0},"-=.8")
+.from("aside", {clipPath: "polygon(50% 100%, 100% 50%, 50% 100%, 0% 50%)"},"-=1.5")
 }
 
 
@@ -34,7 +34,7 @@ const pageLeaveAnimation = () => {
 
     var tl = gsap.timeline({defaults:{duration: 1}})
     tl.from("#core", {opacity:0, y:"100px"} )
-    .from(".service", {opacity: 0, y:"-20px", stagger: 0.1, ease: "power2.in" },"-=.5")
+    .from(".service", {opacity: 0, y:"-20px", stagger: 0.1, ease: "power2.in" },"-=.7")
     }
 
 
